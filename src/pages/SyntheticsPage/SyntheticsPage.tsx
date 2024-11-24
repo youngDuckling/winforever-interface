@@ -241,10 +241,10 @@ export function SyntheticsPage(p: Props) {
   return (
     <div className="Exchange page-layout">
       <Helmet>
-        <style type="text/css">
+        <style type="text/css">{/*@note IMPORTANT BACKGROUND OF EXCHANGE PAGE */}
           {`
             :root {
-              --main-bg-color: #08091b;
+              --main-bg-color: #0A0A0A;
              {
          `}
         </style>

@@ -41,3 +41,4 @@ package-lock.json
 !.yarn/sdks
 !.yarn/versions
 /.idea/
+.vercel

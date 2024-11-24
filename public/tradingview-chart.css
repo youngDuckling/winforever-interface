@@ -1,11 +1,15 @@
 .theme-dark:root {
-  --dark-blue-bg: #16182e;
+    /*@note This changes upper border of chart */
+  --dark-blue-bg: #1C1C1C;
+  /* --dark-blue-bg: #161016; */
+  /* --dark-blue-bg: #3C1800; */
 
   --tv-color-pane-background: var(--dark-blue-bg);
   --tv-color-platform-background: var(--dark-blue-bg);
   --tv-color-pane-background-secondary: var(--dark-blue-bg);
-  --tv-color-toolbar-button-text-hover: #b2b5be;
+  --tv-color-toolbar-button-text-hover: #E2E2E2;
   --tv-color-toolbar-button-background-hover: #272942;
+  /* --tv-color-toolbar-button-background-hover: #1a0100; */
   --tv-color-toolbar-button-text-active: #ffffff;
   --tv-color-toolbar-toggle-button-background-active: #3a3e5e;
   --tv-color-toolbar-toggle-button-background-active-hover: #3a3e5e;
@@ -14,6 +18,7 @@
 }
 
 html.theme-dark .chart-page {
+  /* changes the thin bar on left side*/
   background-color: transparent;
   font-family: "Relative", sans-serif;
 }
@@ -34,7 +39,9 @@ html.theme-dark .toggleButton-3zv4iS2j .background-3zv4iS2j:hover {
 }
 
 html.theme-dark .menuWrap-g78rwseC {
-  background-color: #20243f !important;
+  /* changes color behind "chart-page" @note change this later */
+  /* background-color: #20243f !important; */
+  background-color: #1C1C1C !important;
 }
 
 html.theme-dark .button-2Vpz_LXc.isInteractive-2Vpz_LXc.isGrouped-2Vpz_LXc {
@@ -63,7 +70,7 @@ html.theme-dark .button-2Vpz_LXc.isInteractive-2Vpz_LXc.isActive-2Vpz_LXc:hover:
 
 html.theme-dark .item-2IihgTnv:not(.isActive-2IihgTnv) {
   cursor: pointer;
-  background-color: #20243f !important;
+  background-color: #1C1C1C !important;
   color: #b2b5be !important;
 }
 
@@ -73,7 +80,9 @@ html.theme-dark .container-3Ywm3-oo.selected-3Ywm3-oo {
 }
 
 html.theme-dark .container-3Ywm3-oo.selected-3Ywm3-oo {
-  background-color: #2962ff !important;
+  /* background-color: #2962ff !important; */
+  background-color: #1C1C1C !important;
+
 }
 
 html.theme-dark .dialog-2AogBbC7 {

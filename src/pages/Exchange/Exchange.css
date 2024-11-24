@@ -662,7 +662,7 @@ table.Position-list .Exchange-list-item-active {
 .Exchange-swap-box .Tab {
   margin-bottom: 1.05rem;
 }
-
+{/*@note IMPORTANT changes GRADIENT IN BG token swap */}
 .Exchange-swap-section {
   padding: 1.5rem;
   margin-bottom: 1.05rem;
@@ -671,7 +671,7 @@ table.Position-list .Exchange-list-item-active {
     90deg,
     var(--color-cold-blue-900) 0%,
     color-mix(in srgb, var(--color-slate-500) 40%, transparent) 100%
-  );
+  ); 
   outline: 0.05rem solid transparent;
   outline-offset: -0.1rem;
 }

@@ -63,17 +63,47 @@ input {
 ::-webkit-scrollbar-thumb:hover {
   background: #b3b4c2;
 }
+// :root {
+//   --main-bg-color: var(--color-slate-900);
+//   --dark-blue: var(--color-slate-800);
+//   --dark-blue-bg: var(--color-slate-800);
+//   --dark-blue-accent: var(--color-slate-100);
+//   --primary-btn-bg: var(--color-blue-600);
+//   --primary-btn-hover: var(--color-blue-400);
+//   --primary-btn-active: color-mix(in srgb, var(--color-blue-300), var(--color-blue-400) 90%);
+//   --dark-blue-hover: var(--color-cold-blue-900);
+//   --dark-blue-border: var(--color-gray-800);
+//   --dark-blue-active: var(--color-cold-blue-700);
+//   --text-gray: var(--color-gray-300);
+//   --warning-yellow: var(--color-yellow-500);
+//   --avax-red: #e84143;
+//   --arbitrum-blue: #28a0f0;
+//   --border-radius-sm: 0.4rem; // 4px
+//   --error-red: var(--color-red-500);
+//   --error-red-hover: var(--color-red-400);
+//   --green: var(--color-green-500);
+//   --font-sm: 1.4rem;
+//   --font-base: 1.5rem; // 15px
+//   --font-md: 1.6rem;
+//   --font-lg: 2.4rem;
+//   --font-xl: 3.4rem;
+
+//   --default-container-max-width: 126.4rem;
+//   --default-container-padding: 3.2rem;
+//   --default-container-padding-mobile: 1rem;
+// }
 :root {
   --main-bg-color: var(--color-slate-900);
   --dark-blue: var(--color-slate-800);
-  --dark-blue-bg: var(--color-slate-800);
+  // --dark-blue-bg: var(--color-slate-800); //original
+  --dark-blue-bg: var(--color-blue-800);
   --dark-blue-accent: var(--color-slate-100);
-  --primary-btn-bg: var(--color-blue-600);
+  --primary-btn-bg: var(--color-blue-600);//@note buttons like long/short/connect wallet
   --primary-btn-hover: var(--color-blue-400);
   --primary-btn-active: color-mix(in srgb, var(--color-blue-300), var(--color-blue-400) 90%);
-  --dark-blue-hover: var(--color-cold-blue-900);
-  --dark-blue-border: var(--color-gray-800);
-  --dark-blue-active: var(--color-cold-blue-700);
+  --dark-blue-hover: var(--color-cold-orange-900);
+  --dark-blue-border: var(--color-gray-800); //@note components exchange
+  --dark-blue-active: var(--color-cold-orange-700);
   --text-gray: var(--color-gray-300);
   --warning-yellow: var(--color-yellow-500);
   --avax-red: #e84143;

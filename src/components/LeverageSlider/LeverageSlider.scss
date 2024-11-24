@@ -20,31 +20,31 @@
   }
 
   .rc-slider-rail {
-    background: linear-gradient(90deg, rgb(30, 34, 61) 0%, rgb(40, 45, 74) 100%);
+    background: #141414;// linear-gradient(90deg, #1C1C1C 10%, #141414 100%);
   }
 
-  .rc-slider-track {
-    background: linear-gradient(90deg, var(--color-blue-700) 0%, var(--color-blue-600) 100%);
+  .rc-slider-track {//@note increasing leverage slider
+    background: linear-gradient(90deg, var(--color-blue-700) 0%, var(--color-blue-600) 70%, var(--color-slate-600) 100%);
   }
   .rc-slider-dot {
     border: none;
     border-radius: 1px;
     width: 2px;
     margin-left: -1px;
-    background: rgba(40, 45, 74, 1);
+    background: #0A0A0A;
   }
   .rc-slider-dot-active {
-    background: var(--color-blue-500);
+    background: var(--color-blue-400);
   }
   .rc-slider-handle {
     background: var(--color-slate-600);
-    border: solid 2px var(--color-blue-600);
+    border: solid 2px var(--color-slate-600);
   }
 
   .rc-slider-handle:active {
     // box-shadow: 0 0 0.4rem 0.6rem rgba(45, 66, 252, 0.2);
     // var(--color-blue-600);
-    box-shadow: 0 0 0.4rem 0.6rem color-mix(in srgb, var(--color-blue-600), transparent 80%);
+    box-shadow: 0 0 0.4rem 0.6rem color-mix(in srgb, var(--color-slate-600), transparent 80%);
   }
   .rc-slider-mark-text,
   .rc-slider-mark-text-active {
