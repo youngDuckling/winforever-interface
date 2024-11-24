@@ -5,7 +5,7 @@ import { AppHeaderUser } from "./AppHeaderUser";
 import { AppHeaderLinks } from "./AppHeaderLinks";
 
 // import logoImg from "img/logo_GMX.svg";
-import logoImg from "img/winforever12.svg";
+import logoImg from "img/winforever14.svg";
 
 // import logoSmallImg from "img/logo_GMX_small.svg";
 import logoSmallImg from "img/winforever12.svg";

@@ -9,7 +9,8 @@ import { SOCIAL_LINKS, getFooterLinks } from "./constants";
 import ExternalLink from "components/ExternalLink/ExternalLink";
 import { UserFeedbackModal } from "../UserFeedbackModal/UserFeedbackModal";
 
-import logoImg from "img/ic_gmx_footer.svg";
+// import logoImg from "img/ic_gmx_footer.svg";
+import logoImg from "img/winforever14.svg";
 
 import "./Footer.css";
 
