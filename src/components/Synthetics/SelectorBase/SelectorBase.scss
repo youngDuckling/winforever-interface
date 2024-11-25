@@ -9,7 +9,7 @@
 
     &:hover:not(&-disabled),
     &:hover:not(&-disabled) * {
-      color: var(--color-blue-300);
+      color: var(--color-blue-400);
     }
 
     &-disabled {
@@ -25,8 +25,8 @@
     font-size: var(--font-sm);
 
     border-radius: var(--border-radius-sm);
-    background-color: var(--dark-blue-bg);
-    border: 1px solid var(--color-gray-800);
+    background-color: var(--color-slate-800);//@note IMPORTANT BG of markets drop down
+    border: 1px solid var(--color-slate-950);
     overflow: hidden;
   }
 

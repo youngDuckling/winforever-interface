@@ -16,10 +16,10 @@ const colors = {
 
     // F1 version
     300: "#1E1E1E", 
-    400: "#00FF7F", // @note hover over connect wallet
+    400: "#00FF7F", // @note hover over connect wallet (green)
     500: "#1E1E1E",
-    600: "#FF4B0D", //@note long/shot/connect wallet buttons
-    700: "#FFD700",
+    600: "#FF4B0D", //@note long/shot/connect wallet buttons 
+    700: "#FFD700", // yellow
   },
   //GMX version
   // "cold-blue": {
@@ -63,7 +63,7 @@ const colors = {
     700: "#23263b",
     800: "#1C1C1C",//@note changes component bg in exchange"trade"
     900: "#141414",
-    950: "#0A0A0A",
+    950: "#0A0A0A",//@note main background
     
     /// GMX version
     // 100: "#a0a3c4",

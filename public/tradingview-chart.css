@@ -14,7 +14,7 @@
   --tv-color-toolbar-toggle-button-background-active: #3a3e5e;
   --tv-color-toolbar-toggle-button-background-active-hover: #3a3e5e;
   --tv-color-toolbar-button-background-expanded: var(--dark-blue-bg);
-  /* --tv-list-item-button-background-color: #20243f; */
+  --tv-list-item-button-background-color: #20243f;
 }
 
 html.theme-dark .chart-page {
@@ -94,7 +94,9 @@ html.theme-dark .close-2sL5JydP {
 }
 
 html.theme-dark .close-2sL5JydP:hover {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
+  background-color: #1C1C1C !important;
+
   color: #f7f7f7 !important;
   cursor: pointer;
 }
