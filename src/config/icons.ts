@@ -3,10 +3,16 @@ import arbitrum from "img/ic_arbitrum_24.svg";
 import avalanche from "img/ic_avalanche_24.svg";
 import avalancheTestnet from "img/ic_avalanche_testnet_24.svg";
 import arbitrumGoerli from "img/ic_arbitrum_goerli_24.svg";
+//@note substitue all with "img/winforever14.svg"
+import gmxIcon from "img/winforever14.svg";
+// import gmxIcon from "img/winforever14.svg"; gmx_40 or something
 
-import gmxIcon from "img/ic_gmx_40.svg";
+// import gmxOutlineIcon from "img/ic_gmxv1flat.svg";
 import gmxOutlineIcon from "img/ic_gmxv1flat.svg";
+
+// import glpIcon from "img/ic_glp_40.svg";
 import glpIcon from "img/ic_glp_40.svg";
+
 import esGMXIcon from "img/ic_esgmx_40.svg";
 import esGMXArbitrumIcon from "img/ic_esgmx_arbitrum.svg";
 import esGMXAvaxIcon from "img/ic_esgmx_avalanche.svg";

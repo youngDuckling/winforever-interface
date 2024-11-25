@@ -8,8 +8,8 @@ import { HeaderLink } from "./HeaderLink";
 import "./Header.scss";
 import { isHomeSite } from "lib/legacy";
 import ExternalLink from "components/ExternalLink/ExternalLink";
-// import logoImg from "img/winforever.svg";
-import logoImg from "img/logo_GMX.svg";
+import logoImg from "img/winforever14.svg";
+// import logoImg from "img/logo_GMX.svg";
 
 type Props = {
   small?: boolean;

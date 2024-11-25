@@ -3854,7 +3854,7 @@ msgid "You will receive at least {0} {1} if this order is executed. The exact ex
 msgstr "Вы получите не менее {0} {1}, если этот ордер будет выполнен. Точная цена исполнения может варьироваться в зависимости от комиссионных сборов на момент исполнения ордера."
 
 #: src/components/Common/SEO.tsx
-msgid "GMX | Decentralized Perpetual Exchange"
+msgid "WinForever | Trading Competition Platform"
 msgstr ""
 
 #: src/pages/OrdersOverview/OrdersOverview.jsx

@@ -1,12 +1,13 @@
 import { Helmet } from "react-helmet";
 import { t } from "@lingui/macro";
+import logoImg from "img/winforeverPng.png";
 
 function SEO(props) {
   const { children, ...customMeta } = props;
   const meta = {
-    title: t`GMX | Decentralized Perpetual Exchange`,
-    description: t`Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 100x leverage directly from your wallet on Arbitrum and Avalanche.`,
-    image: "https://gmx.io/og.png",
+    title: t`WinForever | Trading Competition Platform`,
+    description: t`The most degen trading competition on perpetuals BTC, ETH, AVAX and other top cryptocurrencies with up to 100x leverage directly from your wallet on Arbitrum.`,
+    image: {logoImg}, //"https://gmx.io/og.png",//@note change this later
     type: "exchange",
     ...customMeta,
   };
