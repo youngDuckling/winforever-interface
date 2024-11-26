@@ -24,7 +24,16 @@ export default function Footer({ showRedirectModal, redirectPopupTimestamp }: Pr
     <>
       <div className={cx("Footer-wrapper", { home: isHome })}>
         <div className="Footer-logo">
-          <img src={logoImg} alt="MetaMask" />
+          {/* <img src={logoImg} alt="MetaMask" /> */}
+          <style>
+            {`
+              @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+              .racing-font {
+                font-family: 'Racing Sans One', cursive;
+              }
+            `}
+          </style>
+          <span style={{ fontFamily: '"Racing Sans One", cursive' }}>WinForever</span>
         </div>
         <div className="Footer-social-link-block">
           {SOCIAL_LINKS.map((platform) => {
