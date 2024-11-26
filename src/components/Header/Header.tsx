@@ -102,8 +102,17 @@ export function Header({ disconnectAccountAndCloseSettings, openSettings, showRe
           <div className="App-header large">
             <div className="App-header-container-left">
               <Link className="App-header-link-main" to="/">
-                <img src={logoImg} className="big" alt="GMX Logo" />{/*@note Imporant LOGO goes here! */}
-                <img src={logoSmallImg} className="small" alt="GMX Logo" />
+                {/* <img src={logoImg} className="big" alt="GMX Logo" />@note Imporant LOGO goes here! */}
+                <style>
+                  {`
+                    @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+                    .racing-font {
+                      font-family: 'Racing Sans One', cursive;
+                    }
+                  `}
+                </style>
+                <span style={{ fontFamily: '"Racing Sans One", cursive' }}>WinForever</span>
+                {/* <img src={logoSmallImg} className="small" alt="GMX Logo" /> */}
               </Link>
               {isHomeSite() ? (
                 <HomeHeaderLinks showRedirectModal={showRedirectModal} />
@@ -133,8 +142,17 @@ export function Header({ disconnectAccountAndCloseSettings, openSettings, showRe
                   {isDrawerVisible && <FaTimes className="App-header-menu-icon" />}
                 </div>
                 <div className="App-header-link-main clickable" onClick={() => setIsDrawerVisible(!isDrawerVisible)}>
-                  <img src={logoImg} className="big" alt="GMX Logo" />
-                  <img src={logoSmallImg} className="small" alt="GMX Logo" />
+                  {/* <img src={logoImg} className="big" alt="GMX Logo" /> */}
+                  {/* <img src={logoSmallImg} className="small" alt="GMX Logo" /> */}
+                  <style>
+                    {`
+                      @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+                      .racing-font {
+                        font-family: 'Racing Sans One', cursive;
+                      }
+                    `}
+                  </style>
+                  <span style={{ fontFamily: '"Racing Sans One", cursive' }}>WinForever</span>
                 </div>
               </div>
               <div className="App-header-container-right">
