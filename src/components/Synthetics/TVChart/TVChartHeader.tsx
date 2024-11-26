@@ -464,7 +464,7 @@ function TVChartHeaderInfoDesktop() {
         </div>
       </div>
       <div className="ExchangeChart-info VersionSwitch-wrapper">
-        <VersionSwitch />
+        {/* <VersionSwitch /> //@note super important holy shit */}
       </div>
     </div>
   );

@@ -74,7 +74,7 @@ class LeverageSlider extends BasePage {
   }
 }
 
-class Tradebox extends BasePage {
+class Tradebox extends BasePage { //@note important tradebox
   market = this.locator("market");
   payInput = this.locator("pay-input");
   buyInput = this.locator("buy-input");

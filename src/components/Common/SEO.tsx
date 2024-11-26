@@ -7,7 +7,7 @@ function SEO(props) {
   const meta = {
     title: t`WinForever | Trading Competition Platform`,
     description: t`The most degen trading competition on perpetuals BTC, ETH, AVAX and other top cryptocurrencies with up to 100x leverage directly from your wallet on Arbitrum.`,
-    image: {logoImg}, //"https://gmx.io/og.png",//@note change this later
+    image: {logoImg}, //"https://gmx.io/og.png",
     type: "exchange",
     ...customMeta,
   };

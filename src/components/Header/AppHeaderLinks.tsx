@@ -39,7 +39,7 @@ export function AppHeaderLinks({ small, openSettings, clickCloseIcon, showRedire
             <FiX className="App-header-menu-icon" />
           </div>
         </div>
-      )}
+      )}{/* @note important menu bar links*/}
       {/* <div className="App-header-link-container">
         <HeaderLink qa="dashboard" to="/dashboard" showRedirectModal={showRedirectModal}>
           <Trans>Dashboard</Trans>
@@ -60,7 +60,7 @@ export function AppHeaderLinks({ small, openSettings, clickCloseIcon, showRedire
           <Trans>Referrals</Trans>
         </HeaderLink>
       </div> */}
-      <div className="App-header-link-container">
+      {/* <div className="App-header-link-container">
         <HeaderLink
           qa="leaderboard"
           to="/leaderboard"
@@ -69,17 +69,17 @@ export function AppHeaderLinks({ small, openSettings, clickCloseIcon, showRedire
         >
           <Trans>Leaderboard</Trans>
         </HeaderLink>
-      </div>
+      </div> */}
       {/* <div className="App-header-link-container">
         <HeaderLink qa="ecosystem" to="/ecosystem" showRedirectModal={showRedirectModal}>
           <Trans>Ecosystem</Trans>
         </HeaderLink>
       </div> */}
-      <div className="App-header-link-container">
+      {/* <div className="App-header-link-container">
         <ExternalLink href="https://docs.gmx.io/">
           <Trans>Docs</Trans>
         </ExternalLink>
-      </div>
+      </div> */}
       {small && (
         <div className="App-header-link-container">
           <a href="#" onClick={openNotifyModal}>
